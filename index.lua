@@ -57,7 +57,6 @@ function SlashCmdList.SBAR(message)
   end
 end
 
-InVisibleParent:SetScript("OnEvent", OnEvent);
-
 --Регистрация событий
 InVisibleParent:RegisterEvent("PLAYER_ENTERING_WORLD");
+InVisibleParent:SetScript("OnEvent", OnEvent);
