@@ -45,7 +45,7 @@ function SlashCmdList.SBAR(message)
   if trimCommand == "info" then
     print("Доступны следующие комманды:")
     print("Для того чтобы скрыть панель стоек введите " .. WrapTextInColorCode("/sbar hide", "ffffff00"));
-    print("Для того чтобы скрыть панель стоек введите " .. WrapTextInColorCode("/sbar show", "ffffff00"));
+    print("Для того чтобы показать панель стоек введите " .. WrapTextInColorCode("/sbar show", "ffffff00"));
   end
 
   if trimCommand == "hide" then
